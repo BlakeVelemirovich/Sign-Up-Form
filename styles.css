@@ -1,0 +1,28 @@
+/* Wonder if I'm going to need a new place soon lol. Practice for TOP that I will probably keep private. March 25, 2022*/
+
+body {
+	display: flex;
+}
+
+.imageContainer, .contentContainer {
+	background: green;
+	height: 100vh;
+	border: 1px solid black;
+}
+.imageContainer {
+	width: 30vw;
+}
+
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+	width: 70vw;
+}
+
+p {
+	background: blue;
+}
+
+.grow {
+	flex-grow: 2;
+}
