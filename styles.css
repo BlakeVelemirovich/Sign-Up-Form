@@ -1,5 +1,10 @@
 /* Wonder if I'm going to need a new place soon lol. Practice for TOP that I will probably keep private. March 25, 2022*/
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
 	display: flex;
 }
@@ -9,10 +14,29 @@ body {
 	height: 100vh;
 	border: 1px solid black;
 }
+
+/* Left Side Image Container */ 
 .imageContainer {
-	width: 30vw;
+	width: 40vw;
+	background-image: url(images/forest.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.logo {
+	display: flex;
+	position: relative;
+	top: 20vh;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.emberLogo {
+	height: 15vh;
+}
+
+/* Right Side Content/Form Container */
 .contentContainer {
 	display: flex;
 	flex-direction: column;
@@ -26,3 +50,4 @@ p {
 .grow {
 	flex-grow: 2;
 }
+
