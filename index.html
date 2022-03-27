@@ -7,7 +7,7 @@
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -26,9 +26,38 @@
 	    <p>Nunc justo eros, rhoncus quis nulla ut, placerat semper ex. Nunc at lobortis tortor. Maecenas hendrerit lacus at nisl pretium sagittis. Cras bibendum molestie eros quis posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sed mollis eros.</p>
 	    <p>Curabitur est lorem, congue vitae egestas et, efficitur non dolor. Sed ornare nunc at volutpat ullamcorper.</p>
 	</div>
-	<div class="grow">
-	    <p>s</p>
-	</div>
+	<form action="#">
+	  <div class="input">
+		  <div class="test">
+			  <label for="firstName">First name</label>
+			  <input type="text" name="firstName" id="firstName" required>
+		  </div>
+		  <div class="test">
+			<label for="lastName">Last name</label>
+			<input type="text" name="lastName" id="lastName">
+		  </div>
+	  </div>
+	  <div class="input">
+		  <div class="test">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required>
+		  </div>
+		  <div class="test">
+			<label for="phone">Phone number</label>
+			<input type="text" name="phone" id="phone" minlength="9" maxlength="9">
+		  </div>
+	  </div>
+	  <div class="input">
+		  <div class="test">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" required>
+		  </div>
+		  <div class="test">
+			<label for="confirmPassword">Confirm password</label>
+			<input type="password" name="confirmPassword" id="confirmPassword">
+		  </div>
+	  </div>
+	</form>
 	<div>
 	    <p>s</p>
 	</div>

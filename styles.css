@@ -3,6 +3,8 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	color: white;
+	font-family: poppins;
 }
 
 body {
@@ -40,14 +42,27 @@ body {
 .contentContainer {
 	display: flex;
 	flex-direction: column;
-	width: 70vw;
+	width: 60vw;
+	padding-left: 3vw;
+	background-color: #000000;
 }
 
-p {
-	background: blue;
+form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+	gap: 20px;
+	text-transform: uppercase;
 }
 
-.grow {
-	flex-grow: 2;
+.input {
+	display: flex;
+	font-size: 0.7rem;
+	gap: 20px;
 }
 
+.test {
+	display: flex;
+	flex-flow: column wrap;
+	width: 40%;
+}
