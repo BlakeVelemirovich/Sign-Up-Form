@@ -1,4 +1,7 @@
 /* Wonder if I'm going to need a new place soon lol. Practice for TOP that I will probably keep private. March 25, 2022*/
+:root {
+	--formColour: rgb(0, 102, 34);
+}
 
 * {
 	margin: 0px;
@@ -51,18 +54,43 @@ form {
 	display: flex;
 	flex-direction: column;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	gap: 20px;
 	text-transform: uppercase;
+	background-color: rgb(6, 6, 6);
 }
 
 .input {
 	display: flex;
 	font-size: 0.7rem;
-	gap: 20px;
+	gap: 45px;
 }
 
 .test {
 	display: flex;
 	flex-flow: column wrap;
 	width: 40%;
+}
+
+input {
+	border-radius: 3px;
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid var(--formColour);
+}
+
+button {
+	color: var(--formColour);
+	font-weight: 700;
+	font-size: 1.2em;
+	border: 2px solid var(--formColour);
+	border-radius: 5px;
+	padding: 10px 40px;
+}
+
+button:hover {
+	background-color: var(--formColour);
+	color: white;
 }
